@@ -1,0 +1,13 @@
+*
+
+!.gitignore
+
+!fish/
+!fish/**
+
+!nvim/
+!nvim/**
+
+!tmux/
+!tmux/**
+
