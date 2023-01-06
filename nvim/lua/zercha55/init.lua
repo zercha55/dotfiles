@@ -29,6 +29,8 @@ opt.backspace = { 'start', 'eol', 'indent' }
 opt.clipboard:prepend { 'unnamed', 'unnamedplus' }
 opt.splitright = true
 opt.splitbelow = true
+opt.shell = 'fish'
+opt.colorcolumn = "80"
 
 -- highlight yanked text for 100ms using the "Visual" highlight group
 vim.cmd([[
