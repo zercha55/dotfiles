@@ -4,7 +4,6 @@
 
 !fish/
 !fish/**
-fish/fish_variables
 
 !nvim/
 !nvim/**
@@ -12,3 +11,5 @@ fish/fish_variables
 !tmux/
 !tmux/**
 
+!extras/
+!extras/**

@@ -1,0 +1,23 @@
+{
+    "background": "#161617",
+    "black": "#27272a",
+    "blue": "#aca1cf",
+    "brightBlack": "#353539",
+    "brightBlue": "#b9aeda",
+    "brightCyan": "#ECAAD6",
+    "brightGreen": "#9dc6ac",
+    "brightPurple": "#eb6dc1",
+    "brightRed": "#ffae9f",
+    "brightWhite": "#cac9dd",
+    "brightYellow": "#f0c5a9",
+    "cursorColor": "#757581",
+    "cyan": "#ea83a5",
+    "foreground": "#c9c7cd",
+    "green": "#90b99f",
+    "name": "Mellow",
+    "purple": "#e29eca",
+    "red": "#f5a191",
+    "selectionBackground": "#c9c7cd",
+    "white": "#c1c0d4",
+    "yellow": "#e6b99d"
+}
