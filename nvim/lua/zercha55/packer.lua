@@ -45,9 +45,13 @@ return require('packer').startup(function(use)
     }
   }
   use ('m4xshen/autoclose.nvim')
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
   use({
     'nmac427/guess-indent.nvim',
-    config = function() 
+    config = function()
       require('guess-indent').setup({
         auto_cmd = true
       })
