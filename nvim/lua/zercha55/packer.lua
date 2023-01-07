@@ -6,14 +6,7 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
-  -- mellow colors
-  use({
-    'kvrohit/mellow.nvim',
-    as = 'mellow',
-    config = function()
-      vim.cmd('colorscheme mellow')
-    end
-  })
+  use 'Mofiqul/vscode.nvim'
   use {
     'nvim-telescope/telescope.nvim', tag = '0.1.0',
     -- or                            , branch = '0.1.x',
@@ -22,6 +15,7 @@ return require('packer').startup(function(use)
   use('theprimeagen/harpoon')
   use('nvim-treesitter/nvim-treesitter', {run = ':TsUpdate'})
   use('mbbill/undotree')
+  use('windwp/nvim-ts-autotag')
   use {
     'VonHeikemen/lsp-zero.nvim',
     requires = {
