@@ -44,6 +44,7 @@ return require('packer').startup(function(use)
       {'rafamadriz/friendly-snippets'},
     }
   }
+  use ('m4xshen/autoclose.nvim')
   use({
     'nmac427/guess-indent.nvim',
     config = function() 
