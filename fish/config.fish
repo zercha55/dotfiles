@@ -1,3 +1,1 @@
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-end
+set -x TMUX_CONF ~/.tmux.conf
