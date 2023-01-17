@@ -1,6 +1,6 @@
 vim.g.mapleader = " "
 local keymap = vim.keymap
-keymap.set("n", "<leader>ev", ":Ex")
+keymap.set("n", "<leader>ev", ":Ex<CR>")
 -- new tab
 keymap.set("n", "<leader>t", ":tabedit<CR>")
 local function paste_disabled()

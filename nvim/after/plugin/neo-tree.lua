@@ -1,5 +1,5 @@
 vim.cmd([[ let g:neo_tree_remove_legacy_commands = 1 ]])
-vim.keymap.set("n", "<leader>pv", ":Neotree<Enter>")
+vim.keymap.set("n", "<leader>pv", ":Neotree<CR>")
 require("neo-tree").setup{
 	close_if_last_window = true,
 	hide_root_node = true,
